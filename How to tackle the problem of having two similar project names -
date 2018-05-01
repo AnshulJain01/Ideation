@@ -1,3 +1,13 @@
 1) Search database
 2) If project with similar name exists, increment the number by 1
 3) If project with similar name doesn't exists, add 000 to the end of project name
+
+OR
+
+
+#proj_name is a string input
+#time is a string input ->'2018-05-01 03:12:38' (without quotes)
+def timestamphashing(proj_name, time):
+    t = time[len(t)-2:]
+    time = timet[len(t)-5:len(t)-3] + t
+    return proj_name+time
