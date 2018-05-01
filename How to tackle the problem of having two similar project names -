@@ -1,0 +1,3 @@
+1) Search database
+2) If project with similar name exists, increment the number by 1
+3) If project with similar name doesn't exists, add 000 to the end of project name
